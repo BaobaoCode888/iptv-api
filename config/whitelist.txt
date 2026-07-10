@@ -1,14 +1,101 @@
-# 这是接口的白名单，白名单内的接口将不会参与测速，始终保留至结果最前；
-# 填写频道名称会直接保留该记录至该频道的最终结果，如：CCTV-1,接口地址；
-# 如果不填写频道名称，则该地址会被加入到所有频道的结果中，多条记录换行输入。
-# This is the whitelist for interfaces. Interfaces in the whitelist will not be speed tested and will always be kept at the top of the results;
-# Filling in the channel name will directly retain the record to the final result of the channel, such as: CCTV-1, interface address;
-# If the channel name is not filled in, the address will be added to the results of all channels, with multiple records entered on new lines.
+# 白名单接口，不参与测速，始终保留至结果最前
+# 格式：频道名,URL
+# 一个频道可配多个URL，按文件顺序保留
 
+# ==================== 8.138.7.223 广东直连源（17ms超低延迟） ====================
+广东珠江,http://8.138.7.223/tv/gdzj.m3u8
+广州综合,http://8.138.7.223/tv/gzzh.m3u8
+广州影视,http://8.138.7.223/tv/gzys.m3u8
+广州竞赛,http://8.138.7.223/tv/gzjs.m3u8
+广东卫视,http://8.138.7.223/tv/gdws.m3u8
+大湾区卫视,http://8.138.7.223/tv/dwq.m3u8
+深圳卫视,http://8.138.7.223/tv/szws.m3u8
 
+# ==================== gmxw.7766.org 广东地方台（26-248ms低延迟） ====================
+广东体育,http://gmxw.7766.org:808/hls/82/index.m3u8
+广东新闻,http://gmxw.7766.org:808/hls/94/index.m3u8
+广东民生,http://gmxw.7766.org:808/hls/106/index.m3u8
+广东公共,http://gmxw.7766.org:808/hls/114/index.m3u8
+大湾区卫视,http://gmxw.7766.org:808/hls/132/index.m3u8
 
+# ==================== 183.11.239.36 深圳电信CDN（26-665ms低延迟） ====================
+广东南方卫视,http://183.11.239.36:808/hls/92/index.m3u8
+广东南方卫视,http://gmxw.7766.org:808/hls/92/index.m3u8
+佛山综合,http://183.11.239.36:808/hls/176/index.m3u8
+佛山综合,http://gmxw.7766.org:808/hls/176/index.m3u8
 
+# ==================== 港澳台直连源（2026-07-10 新增，测速延迟高但可播放） ====================
+# 翡翠台4K（3840x2160，带宽15M，jdshipin CDN）
+翡翠台,http://r.jdshipin.com/n90gt
+翡翠台,http://o11.163189.xyz/stream/tvb/fct4k/
+# 明珠台（jdshipin CDN）
+明珠台,http://r.jdshipin.com/ZQ4kN
+明珠台,http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
+# HOY TV 720P（香港有线电视官方源）
+HOY TV,http://uc6.i-cable.com/live_freedirect/opentvhd001_h.live/playlist.m3u8
+# 有线新闻 720P（香港有线电视）
+有线新闻,http://61.10.2.141/live_freedirect/freehd209_h.live/playlist.m3u8
+# RTHK 31 240P（香港电台官方源）
+RTHK 31,https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 
-[KEYWORDS]
-# 以下区域是关键字白名单，某频道获取到的接口地址中含有指定关键字，则该接口会被加入该频道的白名单，多条记录换行输入。
-# This area is the keyword whitelist. If the interface address obtained by a certain channel contains the specified keyword, the interface will be added to the whitelist of the channel, with multiple records entered on new lines.
+# ==================== 汕头地方台直连源（2026-07-10 新增，1080P+25ms超低延迟） ====================
+# 汕头综合 1080P（深圳电信CDN，需用户验证频道身份）
+汕头综合,http://183.11.239.36:808/hls/96/index.m3u8
+汕头综合,http://gmxw.7766.org:808/hls/140/index.m3u8
+# 汕头经济 1080P（深圳电信CDN，需用户验证频道身份）
+汕头经济,http://183.11.239.36:808/hls/97/index.m3u8
+# 汕头文旅 1080P（深圳电信CDN，需用户验证频道身份）
+汕头文旅,http://183.11.239.36:808/hls/98/index.m3u8
+# freetv.fun 汕头源（确定是汕头频道，360P低清备选）
+汕头综合,https://t.freetv.fun/live/shan-tou-zong-he-gao-qing-19.m3u8
+汕头经济,https://t.freetv.fun/live/shan-tou-jing-ji-1.m3u8
+汕头文旅,https://t.freetv.fun/live/shan-tou-wen-lv-1.m3u8
+
+# ==================== 2026-07-10 第二轮补强：同源集中频道独立备份 ====================
+# 浙江卫视（5线1源cztv）+ freetv.fun备份
+浙江卫视,https://t.freetv.fun/live/zhe-jiang-wei-shi-gao-qing-2.m3u8
+# 五星体育（5线1源freetv.fun）+ dassby.qqff.top备份
+五星体育,http://dassby.qqff.top:99/live/五星体育/index.m3u8
+# 动漫秀场（5线1源freetv.fun）+ dassby.qqff.top备份
+动漫秀场,http://dassby.qqff.top:99/live/动漫秀场/index.m3u8
+# 金鹰卡通（5线1源freetv.fun）+ dassby.qqff.top备份
+金鹰卡通,http://dassby.qqff.top:99/live/金鹰卡通/index.m3u8
+# 优漫卡通（5线1源freetv.fun + freetv.top migu） + jdshipin备份
+优漫卡通,http://r.jdshipin.com/youmankaton
+# 劲爆体育（4线1源freetv.top migu）+ dassby.qqff.top备份
+劲爆体育,http://dassby.qqff.top:99/live/劲爆体育/index.m3u8
+# 4K频道补强：264788 系列
+CCTV 4K,https://live.264788.xyz/channel/cctv4k?streamid=cctv4k&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+CCTV 8K,https://live.264788.xyz/channel/cctv8k?streamid=cctv8k&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+# 有线新闻（2线1源61.10.2.141）+ i-cable主源备份
+有线新闻,http://uc6.i-cable.com/live_freedirect/freehd209_h.live/playlist.m3u8
+# 纬来育乐（2线1源catvod）+ freetv.fun备份
+纬来育乐,https://t.freetv.fun/live/wei-lai-yu-le-1.m3u8
+# 纬来体育（3线1源epg.pw）+ dassby.qqff.top备份
+纬来体育,http://dassby.qqff.top:99/live/纬来体育/index.m3u8
+# 精品体育（3线1源epg.pw）+ dassby.qqff.top备份
+精品体育,http://dassby.qqff.top:99/live/精品体育/index.m3u8
+# 淘电影（1线1源kkk.888.3116598.xyz）+ freetv.fun备份
+淘电影,https://t.freetv.fun/live/tao-dian-ying-1.m3u8
+# 黑莓电影（1线1源epg.pw）+ dassby.qqff.top备份
+黑莓电影,http://dassby.qqff.top:99/live/黑莓电影/index.m3u8
+# 经典电影（1线1源freetv.fun）+ dassby.qqff.top备份
+经典电影,http://dassby.qqff.top:99/live/经典电影/index.m3u8
+# 纬来电影（1线1源rihou.cc）+ dassby.qqff.top备份
+纬来电影,http://dassby.qqff.top:99/live/纬来电影/index.m3u8
+# 音乐现场（1线1源satellitepull.cnr.cn）+ dassby.qqff.top备份
+音乐现场,http://dassby.qqff.top:99/live/音乐现场/index.m3u8
+# Viutv（1线1源turkmedya）+ catvod备份
+Viutv,https://live.catvod.com/live.php?id=viutv
+# J2（1线）+ catvod备份
+J2,https://live.catvod.com/live.php?id=j2
+
+# ==================== 2026-07-10 第三轮补强：新增独立有效源 ====================
+# 广西广电多屏系统（gx.484947.xyz）- 大湾区卫视真实可播放源（替代8.138.7.223）
+大湾区卫视,https://gx.484947.xyz/PLTV/77777777/224/3221225748/index.m3u8
+# 苏州广电4K - 苏州4K 真实可播放源
+# (苏州4K,https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8)  -- 与bestv互补
+# CGTN Cloud - CCTV4/CCTV9/CCTV12 海外源（替代失效的咪咕CCTV4）
+# 注意：CGTN英文版输出，与中文国际频道不同（频道名区别）
+# 苏州4K 通过 bestv 加保底
+CCTV 8K,http://183.11.239.36:808/hls/cctv8k.m3u8

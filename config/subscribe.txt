@@ -3,13 +3,54 @@
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
 
+# ==================== 原有5个源（已验证稳定） ====================
+# 1. iptv-org 全球公开源（央视/卫视基础源）
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
-https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
+# 2. suxuang 国内精选源
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
+# 3. kimwang1978 中文频道集合（每日自动收集）
 https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
+# 4. vbskycn 国内IPTV源（每6小时更新，含央视卫视及上千地方台）
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
+# 5. YanG-1989 Gather精简版（含咪咕TV源）
+https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
 
+# ==================== 新增6个源（博客+GitHub搜索验证） ====================
+# 6. CCSH/IPTV 全自动采集（4103频道，央视576，广东343，1080P:51）⭐最丰富
+https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u
+# 7. best-fan/iptv-sources 每日检测更新（246频道，央视132，1080P:8）
+https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8
+# 8. zbefine/iptv（1286频道，央视46，广东33，1080P:17）
+https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u
+# 9. vamoschuck/TV 茶客源（873频道，央视212，广东15，1080P:14）
+https://raw.githubusercontent.com/vamoschuck/TV/main/M3U
+# 10. Kimentanm/aptv APTV专用源（120频道，APTV播放器优化）
+https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
 
+# ==================== 港澳台专用源（2026-07-10 新增） ====================
+# 11. sammy0101/hk-iptv-auto 香港频道专用（22/26可用，含翡翠台4K、HOY TV 720P、有线新闻720P）
+https://raw.githubusercontent.com/sammy0101/hk-iptv-auto/refs/heads/main/hk_live.m3u
+# 12. nthack/IPTVM3U HKTW港澳台合集（16个港澳台频道，含翡翠台/J2/无线新闻/无线财经）
+https://raw.githubusercontent.com/nthack/IPTVM3U/master/HKTW.m3u
+# 13. Free-TV/IPTV 国际播放列表（含HOY TV/RTHK 31-34/TVB News等1080P源）
+https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
+
+# ==================== 2026-07-10 新增：港澳台 + 央视备份源 ====================
+# 14. hujingguang/ChinaIPTV cnTV 自动更新源（含港澳台频道，每15分钟更新）
+https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8
+# 15. fanmingming/live 高清直播源（1080P 央视+卫视）
+https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/iptv.m3u
+# 16. qwerttvv/TV 白名单源（每日检测可用性）
+https://raw.githubusercontent.com/qwerttvv/TV/master/tv.m3u
+
+# 17. suxuang/myIPTV ipv4 主源（春晚/国际频道/华数/咪咕/CCTV/卫视等综合）
+https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
+
+# 注：已移除 suxuang 广东电信源（113.95.138.226 公网502不可用，仅广东电信IPTV专网内可访问）
+# 注：已移除 BurningC4 中文IPTV（ottrrs.hl.chinamobile.com 公网502不可用，仅黑龙江移动专网内可访问）
+# 注：已移除 suxuang 咪咕直播.txt（咪咕公网CDN client_ip绑定+3h过期，PotPlayer无法播放）
+# 注：epg.pw 响应较慢（3s），暂不纳入；如需更多国际源可添加 https://epg.pw/test_channels.m3u
+# 注：iptv-org 港澳台专项（cdn.hkdtmb.com SSL证书错误，暂不纳入）：https://iptv-org.github.io/iptv/countries/hk.m3u
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
