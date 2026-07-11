@@ -99,3 +99,47 @@ J2,https://live.catvod.com/live.php?id=j2
 # 注意：CGTN英文版输出，与中文国际频道不同（频道名区别）
 # 苏州4K 通过 bestv 加保底
 CCTV 8K,http://183.11.239.36:808/hls/cctv8k.m3u8
+
+# ==================== 2026-07-10 晚第四轮补强：live.hacks.tools 今天 20:00 更新源 ====================
+# 央视频道：74.91.26.218 公网 1080P（已验证可访问）
+CCTV1,http://74.91.26.218:82/live/cctv1hd.m3u8
+CCTV3,http://74.91.26.218:82/live/cctv3hd.m3u8
+CCTV9,http://74.91.26.218:82/live/cctv9hd.m3u8
+# 央视频道：112.27.235.94 公网 1080P
+CCTV2,http://112.27.235.94:8000/hls/2/index.m3u8
+CCTV6,http://112.27.235.94:8000/hls/7/index.m3u8
+CCTV14,http://112.27.235.94:8000/hls/15/index.m3u8
+# 央视频道：120.76.248.139 公网 1080P
+CCTV5+,http://120.76.248.139/live/bfgd/4200000246.m3u8
+CCTV12,http://120.76.248.139/live/bfgd/4200000131.m3u8
+CCTV15,http://120.76.248.139/live/bfgd/4200000133.m3u8
+CCTV17,http://120.76.248.139/live/bfgd/4200000204.m3u8
+# 卫视频道：cztv 浙江华数 1080P（新增备份，原4K频道1源集中问题）
+浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
+# 卫视频道：120.76.248.139 公网
+海南卫视,http://120.76.248.139/live/bfgd/4200000473.m3u8
+黑龙江卫视,http://120.76.248.139/live/bfgd/4200000095.m3u8
+# 卫视频道：112.27.235.94 公网
+北京卫视,http://112.27.235.94:8000/hls/27/index.m3u8
+深圳卫视,http://112.27.235.94:8000/hls/33/index.m3u8
+天津卫视,http://112.27.235.94:8000/hls/42/index.m3u8
+# 卫视频道：txmov2 腾讯云
+东方卫视,https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
+# 卫视频道：cztv 浙江华数 1080P
+东方卫视4K,https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+四川卫视4K,http://112.27.235.94:8000/hls/35/index.m3u8
+# 卫视频道：其他独立源
+广西卫视,https://hlscdn.liangtv.cn/live/de0f97348eb84f62aa6b7d8cf0430770/dd505d87880c478f901f38560ca4d4e6.m3u8
+吉林卫视,http://223.75.149.129:9906/tsfile/live/0116_1.m3u8?key=txiptv
+山西卫视,http://119.39.9.8:9901/tsfile/live/0118_1.m3u8
+新疆卫视,http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd
+延边卫视,http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
+甘肃卫视,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
+青海卫视,http://120.76.248.139/live/bfgd/4200000111.m3u8
+山东卫视,http://120.76.248.139/live/bfgd/4200000099.m3u8
+河北卫视,http://120.76.248.139/live/bfgd/4200000108.m3u8
+东南卫视,http://120.76.248.139/live/bfgd/4200000483.m3u8
+湖南卫视,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+安多卫视,https://liveout.xntv.tv/a65jur/96iln2.m3u8
+人间卫视,https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
+大湾区卫视,http://222.128.55.152:9080/live/dwq.m3u8

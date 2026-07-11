@@ -46,6 +46,22 @@ https://raw.githubusercontent.com/qwerttvv/TV/master/tv.m3u
 # 17. suxuang/myIPTV ipv4 主源（春晚/国际频道/华数/咪咕/CCTV/卫视等综合）
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
 
+# ==================== 2026-07-10 晚上新增：分类化高质量源（live.hacks.tools，今天 20:00 更新） ====================
+# 18. live.hacks.tools 央视频道专项（CCTV1~17 + CGTN，含74.91.26.218公网1080P源 + 112.27.235.94 + 120.76.248.139）
+https://live.hacks.tools/tv/ipv4/categories/%E5%A4%AE%E8%A7%86%E9%A2%91%E9%81%93.m3u
+# 19. live.hacks.tools 卫视频道专项（含txmov2.a.kwimgs.com腾讯云卫视 + cztv.com华数卫视 + 大湾区卫视等）
+https://live.hacks.tools/tv/ipv4/categories/%E5%8D%AB%E8%A7%86%E9%A2%91%E9%81%93.m3u
+# 20. live.hacks.tools 地方频道专项（260+省市地方台，含 cztvcloud.com 浙江华数 + cztv.com 等）
+https://live.hacks.tools/tv/ipv4/categories/%E5%9C%B0%E6%96%B9%E9%A2%91%E9%81%93.m3u
+# 21. live.hacks.tools 港澳台专项（freetv.fun geo-blocked 仅作备份，不参与测速）
+https://live.hacks.tools/tv/ipv4/categories/hong_kong.m3u
+
+# ==================== 2026-07-10 晚上新增：其他新发现 ====================
+# 22. izbds/live.zbds.top 全套（央视/卫视/地方台统一 m3u，今天 20:00 更新）
+https://live.zbds.top/tv/iptv4.txt
+# 23. izbds/live.zbds.top IPv6 版本
+https://live.zbds.top/tv/iptv6.txt
+
 # 注：已移除 suxuang 广东电信源（113.95.138.226 公网502不可用，仅广东电信IPTV专网内可访问）
 # 注：已移除 BurningC4 中文IPTV（ottrrs.hl.chinamobile.com 公网502不可用，仅黑龙江移动专网内可访问）
 # 注：已移除 suxuang 咪咕直播.txt（咪咕公网CDN client_ip绑定+3h过期，PotPlayer无法播放）
