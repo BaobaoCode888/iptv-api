@@ -59,8 +59,18 @@ https://live.hacks.tools/tv/ipv4/categories/hong_kong.m3u
 # ==================== 2026-07-10 晚上新增：其他新发现 ====================
 # 22. izbds/live.zbds.top 全套（央视/卫视/地方台统一 m3u，今天 20:00 更新）
 https://live.zbds.top/tv/iptv4.txt
-# 23. izbds/live.zbds.top IPv6 版本
+# 22. izbds/live.zbds.top IPv6 版本
 https://live.zbds.top/tv/iptv6.txt
+
+# ==================== 2026-07-12 新增：基于GitHub 7.12 搜索结果 ====================
+# 23. mytv-android/China-TV-Live-M3U8 公网IPTV直连源（21个卫视+部分央视，token 8h内有效）
+# 包含：安徽/北京/东南/东方/甘肃/广西/贵州/海南/河北/黑龙江/河南/吉林/内蒙古/青海/山东/山西/陕西/西藏/新疆/云南/浙江卫视
+# 部分频道使用 {XXX} 模板占位符，由 iptv-api 模板解析机制处理
+https://raw.githubusercontent.com/mytv-android/China-TV-Live-M3U8/refs/heads/main/iptv.m3u
+# 24. cyh92/iptv-api-weishi 7.12 01:13Z 更新的 PLTV公网平台（zby.130519.xyz/PLTV/11/224/...）
+# 包含：CCTV1-16 + CETV + CGTN + 30+卫视 + 上海地方全套（动漫秀场/金鹰卡通/卡酷少儿等）
+# 注：130519.xyz 域名 SSL 有 IP/SNI 绑定，不一定本地可访问，留作自动测速验证
+https://gitee.com/cyh92/StaticPage/raw/master/tv/list.txt
 
 # 注：已移除 suxuang 广东电信源（113.95.138.226 公网502不可用，仅广东电信IPTV专网内可访问）
 # 注：已移除 BurningC4 中文IPTV（ottrrs.hl.chinamobile.com 公网502不可用，仅黑龙江移动专网内可访问）
