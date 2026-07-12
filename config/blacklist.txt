@@ -14,3 +14,42 @@ otttv.bj.chinamobile.com
 iptv.666230.xyz
 iptv.ktv666.com
 gxlive.snrtv.com
+# ==================== 2026-07-12 ffprobe严格验证失效源（5XX/Invalid data/全频道失效） ====================
+# gslb平台全系列5XX（央视/卫视/4K）
+63.141.230.178
+# 3m1080p全系列5XX（央视/卫视）
+204.12.221.218
+# live/cetv 5XX（央视教育）
+198.204.228.26
+# live/ 多频道5XX（央视/4K）
+107.150.60.122
+# gslb/dsdqpub 5XX（央视/4K）
+38.75.136.137
+# live/ 5XX（高尔夫网球）
+192.151.150.154
+# cdnlive 5XX（央视/卫视）
+207.56.13.146
+# 720p 5XX（央视/卫视）
+173.208.212.130
+# live/ 5XX（CCTV8K）
+198.204.240.250
+# dassby全系列5XX（电影/体育/音乐）
+dassby.qqff.top
+# rihou 5XX/Invalid data（CETV/纬来）
+rihou.cc
+# 264788 4K频道失效
+live.264788.xyz
+# kkk.888 api.php失效（CETV/风云）
+kkk.888.3116598.xyz
+# jdshipin Invalid data（港澳台）
+r.jdshipin.com
+php.jdshipin.com
+# 163189 Invalid data（港澳台4K）
+cdn9.163189.xyz
+o11.163189.xyz
+# satellitepull 无视频流（音乐现场）
+satellitepull.cnr.cn
+# fantv 失效（港澳台）
+media.fantv.hk
+# turkmedya 失效（国际）
+turkmedya-live.ercdn.net

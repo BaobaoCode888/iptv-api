@@ -26,11 +26,7 @@
 
 # ==================== 港澳台直连源（2026-07-10 新增，测速延迟高但可播放） ====================
 # 翡翠台4K（3840x2160，带宽15M，jdshipin CDN）
-翡翠台,http://r.jdshipin.com/n90gt
-翡翠台,http://o11.163189.xyz/stream/tvb/fct4k/
 # 明珠台（jdshipin CDN）
-明珠台,http://r.jdshipin.com/ZQ4kN
-明珠台,http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 # HOY TV 720P（香港有线电视官方源）
 HOY TV,http://uc6.i-cable.com/live_freedirect/opentvhd001_h.live/playlist.m3u8
 # 有线新闻 720P（香港有线电视）
@@ -55,36 +51,23 @@ RTHK 31,https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u
 # 浙江卫视（5线1源cztv）+ freetv.fun备份
 浙江卫视,https://t.freetv.fun/live/zhe-jiang-wei-shi-gao-qing-2.m3u8
 # 五星体育（5线1源freetv.fun）+ dassby.qqff.top备份
-五星体育,http://dassby.qqff.top:99/live/五星体育/index.m3u8
 # 动漫秀场（5线1源freetv.fun）+ dassby.qqff.top备份
-动漫秀场,http://dassby.qqff.top:99/live/动漫秀场/index.m3u8
 # 金鹰卡通（5线1源freetv.fun）+ dassby.qqff.top备份
-金鹰卡通,http://dassby.qqff.top:99/live/金鹰卡通/index.m3u8
 # 优漫卡通（5线1源freetv.fun + freetv.top migu） + jdshipin备份
-优漫卡通,http://r.jdshipin.com/youmankaton
 # 劲爆体育（4线1源freetv.top migu）+ dassby.qqff.top备份
-劲爆体育,http://dassby.qqff.top:99/live/劲爆体育/index.m3u8
 # 4K频道补强：264788 系列
-CCTV 4K,https://live.264788.xyz/channel/cctv4k?streamid=cctv4k&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-CCTV 8K,https://live.264788.xyz/channel/cctv8k?streamid=cctv8k&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 # 有线新闻（2线1源61.10.2.141）+ i-cable主源备份
 有线新闻,http://uc6.i-cable.com/live_freedirect/freehd209_h.live/playlist.m3u8
 # 纬来育乐（2线1源catvod）+ freetv.fun备份
 纬来育乐,https://t.freetv.fun/live/wei-lai-yu-le-1.m3u8
 # 纬来体育（3线1源epg.pw）+ dassby.qqff.top备份
-纬来体育,http://dassby.qqff.top:99/live/纬来体育/index.m3u8
 # 精品体育（3线1源epg.pw）+ dassby.qqff.top备份
-精品体育,http://dassby.qqff.top:99/live/精品体育/index.m3u8
 # 淘电影（1线1源kkk.888.3116598.xyz）+ freetv.fun备份
 淘电影,https://t.freetv.fun/live/tao-dian-ying-1.m3u8
 # 黑莓电影（1线1源epg.pw）+ dassby.qqff.top备份
-黑莓电影,http://dassby.qqff.top:99/live/黑莓电影/index.m3u8
 # 经典电影（1线1源freetv.fun）+ dassby.qqff.top备份
-经典电影,http://dassby.qqff.top:99/live/经典电影/index.m3u8
 # 纬来电影（1线1源rihou.cc）+ dassby.qqff.top备份
-纬来电影,http://dassby.qqff.top:99/live/纬来电影/index.m3u8
 # 音乐现场（1线1源satellitepull.cnr.cn）+ dassby.qqff.top备份
-音乐现场,http://dassby.qqff.top:99/live/音乐现场/index.m3u8
 # Viutv（1线1源turkmedya）+ catvod备份
 Viutv,https://live.catvod.com/live.php?id=viutv
 # J2（1线）+ catvod备份
