@@ -186,21 +186,15 @@ IPv6-中国教育2台,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/
 IPv6-中国教育3台,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226577/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EhE2Z89HKgsQOlN9opVn1iw%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNN03yUnk4zBVk1bynPPL3hZ%2CEND
 IPv6-中国教育4台,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226997/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EAw_OvjRgJVjtlaOa0dcgzg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 
-# ==================== 2026-07-12 新增：安徽卫视可用源（ffprobe验证通过） ====================
-# live1.ahtv.cn 官方源 token 过期全失效，以下为验证可用的新源
-# 112.27.235.94 公网 1080P（h264 1920x1080）
-安徽卫视,http://112.27.235.94:8000/hls/25/index.m3u8
-# 222.169.85.8 吉林联通 1080P（h264 1920x1080）
-安徽卫视,http://222.169.85.8:9901/tsfile/live/0130_1.m3u8
-
-# ==================== 安徽卫视官方源（2026-07-12 12:12 自动更新 token） ====================
+# ==================== 安徽卫视官方源（2026-07-12 12:22 自动更新 token） ====================
 # 官方API: https://mapi.ahtv.cn/api/v1/channel.php
 # token有效期2小时，由 update_ahtv_token.py 自动刷新
 # 播放需带 Referer: https://www.ahtv.cn/
-安徽卫视,https://live1.ahtv.cn/ahws/playlist.m3u8?_upt=5ed5b8be1783836752
-安徽经济生活,https://live4.ahtv.cn/jjsh1/playlist.m3u8?_upt=6d8cb4361783836752
-安徽综艺体育,https://live5.ahtv.cn/zyty1/playlist.m3u8?_upt=c4142c701783836752
-安徽影视,https://live4.ahtv.cn/yspd1/playlist.m3u8?_upt=c9d697d71783836752
-安徽公共,https://live5.ahtv.cn/ahgg/playlist.m3u8?_upt=b8c2bf101783836752
-安徽农业科教,https://live5.ahtv.cn/kjpd/playlist.m3u8?_upt=117f4c9d1783836752
-安徽国际,https://live5.ahtv.cn/ahgj1/playlist.m3u8?_upt=fa9da5401783836752
+安徽卫视,https://live1.ahtv.cn/ahws/playlist.m3u8?_upt=38fb3a231783837379
+
+# ==================== 安徽卫视验证可用源（ffprobe 1080P，2026-07-12 搜索） ====================
+# 注意：112.27.235.94 hls/25 是安徽经济生活，hls/26 才是安徽卫视
+安徽卫视,http://112.27.235.94:8000/hls/26/index.m3u8
+安徽卫视,http://222.90.21.30:9901/hls/25/index.m3u8
+安徽卫视,http://112.123.243.37:50085/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0
+安徽卫视,http://59.39.89.130:60901/tsfile/live/0125_6.m3u8?key=txiptv&playlive=1&authid=0
