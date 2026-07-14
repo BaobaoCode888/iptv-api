@@ -54,15 +54,22 @@
 # https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/iptv.m3u
 # https://raw.githubusercontent.com/qwerttvv/TV/master/tv.m3u
 # https://live.zbds.top/tv/iptv6.txt
-# https://raw.githubusercontent.com/joevess/IPTV/main/m3u/iptv.m3u
 # https://live.zbds.org/tv/iptv6.m3u
-# https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u
 # https://iptv.vodtv.cn/o_s_cn.m3u
+# 32. bestK/iptv 主合集（每小时自动更新；央视30路+卫视309路，含 CCTV-13(1080p) 等显式1080P标注，央视/卫视覆盖最全）
+# 33. best-fan 央视专项（186行央视，CCTV1/10...多CDN）
+# 34. best-fan 省级卫视专项（200行卫视，北京/湖南...多CDN）
+# ==================== 2026-07-14 晚 新增：结合最新GitHub直播源 ====================
+# 35. BigBigGrandG/IPTV-URL Gather（实测329KB/1956行/248 IPv6/央视21+卫视41+1080P标注，部分IPv6，内容新）
+# 36. joevess/IPTV（504频道含央视/卫视/地方，自带EPG+台标；此前因移动网波动被自动停用，本轮换用GitHub源重试）
+# 37. Ftindy/IPTV-URL IPv6（自带EPG，充实IPv6分类）
+# https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u
+# https://raw.githubusercontent.com/nthack/IPTVM3U/master/HKTW.m3u
+# https://raw.githubusercontent.com/mytv-android/China-TV-Live-M3U8/refs/heads/main/iptv.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
 https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
-https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u
 https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8
 https://raw.githubusercontent.com/vamoschuck/TV/main/M3U
 https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
@@ -78,17 +85,16 @@ https://live.zbds.top/tv/iptv4.txt
 https://gitee.com/cyh92/StaticPage/raw/master/tv/list.txt
 https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
 https://live.fanmingming.com/tv/m3u/ipv6.m3u
-
-# 32. bestK/iptv 主合集（每小时自动更新；央视30路+卫视309路，含 CCTV-13(1080p) 等显式1080P标注，央视/卫视覆盖最全）
 https://raw.githubusercontent.com/bestK/iptv/main/iptv.m3u
-# 33. best-fan 央视专项（186行央视，CCTV1/10...多CDN）
 https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8
-# 34. best-fan 省级卫视专项（200行卫视，北京/湖南...多CDN）
 https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province.m3u8
+https://raw.githubusercontent.com/BigBigGrandG/IPTV-URL/release/Gather.m3u
 
-# https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u
-# https://raw.githubusercontent.com/nthack/IPTVM3U/master/HKTW.m3u
-# https://raw.githubusercontent.com/mytv-android/China-TV-Live-M3U8/refs/heads/main/iptv.m3u
+# https://raw.githubusercontent.com/joevess/IPTV/main/m3u/iptv.m3u
+# https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u
+# https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u
+# https://raw.githubusercontent.com/joevess/IPTV/main/m3u/iptv.m3u
+# https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。

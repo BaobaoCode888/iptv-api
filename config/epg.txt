@@ -1,4 +1,8 @@
 # 这是EPG订阅列表，用于生成M3U结果频道菜单信息
 # This is the EPG subscription list used to generate M3U result channel menu information
+# 国内最全 EPG 源（open_subscribe_epg 会自动从订阅源 m3u 头部补充，这里作为主源）
+http://epg.51zmt.top:8000/e.xml.gz
+http://e.erw.cc/all.xml.gz
+https://live.fanmingming.com/e.xml
 
-# http://e.erw.cc/e.xml.gz
+# https://112114.xyz/xmltv.php?channel=&format=json
