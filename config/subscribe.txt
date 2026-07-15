@@ -79,6 +79,13 @@
 # https://raw.githubusercontent.com/BigBigGrandG/IPTV-URL/release/Gather.m3u
 # https://raw.githubusercontent.com/vamoschuck/TV/main/M3U
 # https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8
+# ==================== 2026-07-15 22:00 新增：今日 GitHub 最新高星源 ====================
+# 40. TianmuTNT/iptv 自用IPTV源（353★，2026-07-15 16:02Z=北京07-16 00:02 刚更新，928+提交，自动每小时更新）
+#     提供 iptv.txt（CCTV1-17+卫视全套，频道名,URL 格式）和 iptv.m3u 双格式
+#     多 CDN 公网源（74.91.26.218/123.130.84.106/61.136.172.236/183.223.157.33/59.39.89.130 等）
+#     与现有源重叠少且更新极频繁，纳入主力源；m3u 版作备份
+# https://raw.githubusercontent.com/sammy0101/hk-iptv-auto/refs/heads/main/hk_live.m3u
+# https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province.m3u8
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
 https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
@@ -95,11 +102,11 @@ https://gitee.com/cyh92/StaticPage/raw/master/tv/list.txt
 https://live.fanmingming.com/tv/m3u/ipv6.m3u
 https://raw.githubusercontent.com/bestK/iptv/main/iptv.m3u
 https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8
-https://raw.githubusercontent.com/122566/cn-iptv/main/cn_live.m3u
 https://raw.githubusercontent.com/kimwang1978/collect-txt/main/others_output.txt
+https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
+https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.m3u
 
-# https://raw.githubusercontent.com/sammy0101/hk-iptv-auto/refs/heads/main/hk_live.m3u
-# https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province.m3u8
+# https://raw.githubusercontent.com/122566/cn-iptv/main/cn_live.m3u
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
