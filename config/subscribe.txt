@@ -86,6 +86,7 @@
 #     与现有源重叠少且更新极频繁，纳入主力源；m3u 版作备份
 # https://raw.githubusercontent.com/sammy0101/hk-iptv-auto/refs/heads/main/hk_live.m3u
 # https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_province.m3u8
+# https://raw.githubusercontent.com/122566/cn-iptv/main/cn_live.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
 https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
@@ -101,12 +102,11 @@ https://live.zbds.top/tv/iptv4.txt
 https://gitee.com/cyh92/StaticPage/raw/master/tv/list.txt
 https://live.fanmingming.com/tv/m3u/ipv6.m3u
 https://raw.githubusercontent.com/bestK/iptv/main/iptv.m3u
-https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8
 https://raw.githubusercontent.com/kimwang1978/collect-txt/main/others_output.txt
 https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
 https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.m3u
 
-# https://raw.githubusercontent.com/122566/cn-iptv/main/cn_live.m3u
+# https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_cctv.m3u8
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
